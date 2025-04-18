@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <video autoplay muted loop id="background-video">
+        <source src="/assets/fundo.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
     <nav class="navbar">
         <a href="" class="logo"></a>
         <ul>
@@ -33,20 +37,48 @@
     <section class="home">
         <div class="home-info">
             <h1>Victor Manoel</h1>
-            <h2>Sou Desenvolvedor Front-End</h2>
+            <h2>Sou
+                <span style="--i:4" data-text="Desenvolvedor Full-Stack">Desenvolvedor Full-Stack</span>
+                <span style="--i:3" data-text="Desenvolvedor Front-End">Desenvolvedor Front-End</span>
+                <span style="--i:2" data-text="Desenvolvedor Back-End">Desenvolvedor Back-End</span>
+                <span style="--i:1" data-text="Designer">Designer</span>
+            </h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Sou desenvolvedor web formado, atualmente cursando Desenvolvimento Full Stack e Programação para Jogos Digitais. Tenho 18 anos e sou apaixonado por tecnologia, sempre buscando evoluir em cada linha de código. Gosto de criar soluções modernas, funcionais
+                e criativas tanto para web quanto para games.
+
+
             </p>
             <div class="btn-curr">
                 <a href="#" class="btn">Baixar Currículo</a>
             </div>
-            <div class="redes-sociais">
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-linkedin"></i></a>
-                <a href=""><i class="fab fa-whatsapp"></i></a>
+            <div class="wrapper">
+                <a href="#" class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i style="font-size: 20px;" class="fab fa-instagram"></i></span>
+                </a>
+                <a class="icon github">
+                    <div class="tooltip">Github</div>
+                    <span><i style="font-size: 20px;" class="fab fa-github"></i></span>
+                </a>
+                <a href="#" class="icon tiktok">
+                    <div class="tooltip">TikTok</div>
+                    <span><i style="font-size: 20px;" class="fab fa-tiktok"></i></span>
+                </a>
+                <a href="#" class="icon linkedin">
+                    <div class="tooltip">Linkedin</div>
+                    <span><i style="font-size: 20px;" class="fab fa-linkedin"></i></span>
+                </a>
             </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/Victor.png" alt="">
+                </div>
+            </div>
+
         </div>
     </section>
 </body>
